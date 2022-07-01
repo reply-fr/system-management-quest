@@ -8,7 +8,7 @@ This is a gamified workshop where participants will practice automated deploymen
 ##What is the script of the System Management Quest?
 The System Management Quest is a competition across multiple teams. The winning team is the one which accumulates the highest number of points. Points come from activities described in the git repository. Some activities are based on time, therefore teams have to be quick on execution. Other activities are based on thinking, therefore teams have to scratch their heads. In all cases, high-degree of collaboration is an important factor of success.
 
-## Pre-requisites to participe to a Domain Quest
+## Pre-requisites to participe to a System Management Quest
 
 - Chrome as a web browser for each participant
 - Address of SSO portal for each team
