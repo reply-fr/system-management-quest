@@ -1,7 +1,7 @@
 # __Workshop - System Management - Image Builder__ 
 ## This workshop is intended to be used as a hand-on experience, gamefied situation for each team in order to understand and apply IaC oriented to use AWS SSM, AWS EC2 Image Builder, AWS EC2 and other different components reviewed in previous sessions. 🚀
 
-#The System Management Quest 🧙‍♂️
+# The System Management Quest 🧙‍♂️
  
 This is a gamified workshop where participants will practice automated deployment and configuration of EC2 windows instances based on a parent image built with EC2 Image Builder on the AWS platform. A set of different actions will be done using AWS SSM to have a final version of a webserver with static content.
 
@@ -37,11 +37,11 @@ Congratulations! With the AWS Console to inspect cloud resources, and with Cloud
 
 ### 📜 Where participants create cloud resources from the command line (10 points)
 
-### 📜 Where the team create 3 virtual machines with IIS and a static frontend (30 points)
+### 📜 Where the team create 1 virtual machine with IIS and a static frontend (30 points)
 
-### 📜 Where the team updates 2 virtual machines frontend (50 points)
+### 📜 Where the team updates the virtual machines frontend (50 points)
 
-### 💣 Bonus: Where the team automate a frontend update (100 points)
+### 💣 Bonus: Where the team put a network balancer in front of the servers (100 points)
 
 ## The end of the System Management Quest 🏰
 
