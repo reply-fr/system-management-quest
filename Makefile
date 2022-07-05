@@ -1,3 +1,6 @@
+
+BUCKET_NAME ?= my-incredible-bucket
+
 all:
 	@make hello
 
@@ -15,16 +18,16 @@ hello:
 
 check:
 	@python ./scripts/check.py
-	
+
 build-image:
 	@aws --region eu-west-1 cloudformation deploy --template-file ./scripts/build-win-image.yml --stack-name My-First-EC2-Image --tags owner=Accor env=workshop-sm --capabilities CAPABILITY_IAM
 	@echo --------------------------------------------------------
 	@echo This can take up to 30 min - please continue with step 2
 	@echo --------------------------------------------------------
-	
+
 build-bucket:
-	@aws s3api create-bucket --bucket accor-demo --region eu-west-1 --create-bucket-configuration LocationConstraint=eu-west-1 --acl public-read
-	@aws s3api put-object --bucket accor-demo --key old-logo.png --body old-logo.png --tagging "logo-version=v1" --acl public-read
+	@aws s3api create-bucket --bucket ${BUCKET_NAME} --region eu-west-1 --create-bucket-configuration LocationConstraint=eu-west-1 --acl public-read
+	@aws s3api put-object --bucket ${BUCKET_NAME} --key old-logo.png --body old-logo.png --tagging "logo-version=v1" --acl public-read
 	@echo ---------------------------------------------------------------------------------------
 	@echo Please check in AWS Console the creation of the S3 Bucket and the logo version 1 upload
 	@echo ---------------------------------------------------------------------------------------

@@ -1,8 +1,8 @@
-# __Workshop - System Management - Image Builder__ 
+# __Workshop - System Management - Image Builder__
 ## This workshop is intended to be used as a hand-on experience, gamefied situation for each team in order to understand and apply IaC oriented to use AWS SSM, AWS EC2 Image Builder, AWS EC2 and other different components reviewed in previous sessions. 🚀
 
 # The System Management Quest 🧙‍♂️
- 
+
 This is a gamified workshop where participants will practice automated deployment and configuration of EC2 windows instances based on a parent image built with EC2 Image Builder on the AWS platform. A set of different actions will be done using AWS SSM to have a final version of a webserver with static content.
 
 ## What is the script of the System Management Quest?
@@ -75,7 +75,8 @@ What do you have to do:
 
 #### Create S3 Bucket and upload static content for the frontend (AWS Cloud9)
 1. Type with shell command `$ make check` - to check s3 connectivity from the AWS Cloud9
-2. Type with shell command `$ make build-bucket` - to create the public S3 bucket and upload the old frontend logo.
+2. Pick up a unique name for your future bucket, something that can not be used by other AWS practitioner world-wide.
+3. Type with shell command `$ BUCKET_NAME=<bucket-name-here> make build-bucket` - to create the public S3 bucket and upload the old frontend logo.
 
 ### 📜 Where the team create 1 virtual machine with IIS and a static frontend (30 points)
 
@@ -108,6 +109,3 @@ Congratulations, you have reached the end of the System Management Quest. Throug
 •	Cloud9 – integrated working environment for Infrastructure-as-Code
 •	AWS Systems Manager – automation of software deployment and configuration on servers
 •	AWS CloudWatch – automated monitoring dashboard for virtual servers
-
- 
-
