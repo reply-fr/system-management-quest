@@ -13,6 +13,7 @@ The System Management Quest is a competition across multiple teams. The winning 
 - Chrome as a web browser for each participant
 - Address of SSO portal for each team
 - Authentication credentials for each participant
+- Default VPC with public subnet
 
 ## How to win points? 🎯
 Complete each activities below, and gain points for each of them. Note that activities have been designed to be executed in sequence.
