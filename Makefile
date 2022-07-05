@@ -39,3 +39,5 @@ check-ami:
 build-instance:
 	@aws --region eu-west-1 cloudformation deploy --template-file ./scripts/build-ec2.yml --stack-name My-First-EC2 --tags owner=Accor version=v1 env=workshop-sm --capabilities CAPABILITY_IAM
 
+destroy:
+	@aws --region eu-west-1 cloudformation delete-stack --stack-name My-First-EC2
