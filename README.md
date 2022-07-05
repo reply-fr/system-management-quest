@@ -39,7 +39,6 @@ What do you have to do:
 2. From there, look for the terminal window
 3. Clone the git repository that has been prepared for the Quest
 4. Enter the project directory
-5. Display the menu of commands with shell command: `$ make`
 5. Create a feature branch with their personal name, e.g., `m.anderson` for Mr. Anderson
 6. Push the new branch to the original git repository
 
