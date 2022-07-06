@@ -20,7 +20,7 @@ check:
 	@python ./scripts/check.py
 
 build-image:
-	@aws --region eu-west-1 cloudformation deploy --template-file ./scripts/build-win-image.yml --stack-name My-First-EC2-Image --tags owner=Accor env=workshop-sm --capabilities CAPABILITY_IAM
+	@aws --region eu-west-1 cloudformation deploy --template-file ./scripts/build-win-image.yml --stack-name My-First-EC2-Image --tags env=workshop-sm --capabilities CAPABILITY_IAM
 	@echo --------------------------------------------------------
 	@echo This can take up to 30 min - please continue with step 2
 	@echo --------------------------------------------------------
